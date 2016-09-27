@@ -1,27 +1,27 @@
 $def with (data)
 <?xml version="1.0" encoding="UTF-8"?>
-<SnomIPPhoneImageFile>
+<SnomIPPhoneImageFile track="no">
  <LocationX>00</LocationX>
  <LocationY>00</LocationY>
  <SoftKeyItem>
   <Name>6</Name>
-  <URL>${app_path("right")}</URL>  
+  <URL track="no">${app_path("right")}</URL>  
  </SoftKeyItem>
  <SoftKeyItem>
   <Name>4</Name>
-  <URL>${app_path("left")}</URL>  
+  <URL track="no">${app_path("left")}</URL>  
  </SoftKeyItem>
  <SoftKeyItem>
   <Name>2</Name>
-  <URL>${app_path("up")}</URL>  
+  <URL track="no">${app_path("up")}</URL>  
  </SoftKeyItem>
  <SoftKeyItem>
   <Name>8</Name>
-  <URL>${app_path("down")}</URL>  
+  <URL track="no">${app_path("down")}</URL>  
  </SoftKeyItem>
  <SoftKeyItem>
   <Name>5</Name>
-  <URL>${app_path("stop")}</URL>  
+  <URL track="no">${app_path("stop")}</URL>  
  </SoftKeyItem>
  <URL>${data['CAM_ADDR']}/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&amp;usr=${data['CAM_USERNAME']}&amp;pwd=${data['CAM_PASSWORD']}</URL>
  <fetch mil="300">${app_path("snomcam")}</fetch>
